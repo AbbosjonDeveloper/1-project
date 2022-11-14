@@ -9,7 +9,7 @@ if (age < keschasAge)
 {
   System.Console.WriteLine("You are younger than  Kescha!");
 }
-else if(age < keschasAge) 
+else if(age > keschasAge) 
 {
   System.Console.WriteLine("You are older than  Kescha!");
 }
