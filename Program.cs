@@ -15,7 +15,7 @@ else if(age > keschasAge)
 }
 else 
 {
-  System.Console.WriteLine("You are equal!");
+  System.Console.WriteLine("You are equal bro!");
 }
 
 
