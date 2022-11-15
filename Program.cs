@@ -5,18 +5,12 @@ int keschasAge = Convert.ToInt32(Console.ReadLine());
 int ageComparison = age - keschasAge;
 System.Console.WriteLine($"Age difference between you and Kescha is : {ageComparison}");
 
-if (age < keschasAge)
-{
-  System.Console.WriteLine("You are younger than  Kescha!");
-}
-else if(age > keschasAge) 
-{
-  System.Console.WriteLine("You are older than  Kescha!");
-}
-else 
-{
-  System.Console.WriteLine("You are equal bro!");
-}
+string message =
+  age >= keschasAge 
+    ? "You are older or equal to Kescha"
+    : "You are younger than Kescha";
+
+System.Console.WriteLine(message);
 
 
 
